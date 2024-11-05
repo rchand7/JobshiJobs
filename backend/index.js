@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 // Update CORS options to use the correct frontend URL
 const corsOptions = {
-    origin: 'http://localhost:5173', // Updated to new frontend URL
+    origin: 'https://getjob-3.onrender.com', // Updated to new frontend URL
     credentials: true
 };
 app.use(cors(corsOptions));
