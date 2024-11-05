@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",               // Start the backend in development mode
-    "start": "node index.js",                // Start the backend in production mode
-    "build": "npm install && cd frontend && npm install && npm run build", // Install dependencies and build frontend
-    "postinstall": "cd frontend && npm install && npm run build" // Run after installation to build frontend
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build": "npm install && cd frontend && npm install && npm run build",
+    "postinstall": "cd frontend && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
